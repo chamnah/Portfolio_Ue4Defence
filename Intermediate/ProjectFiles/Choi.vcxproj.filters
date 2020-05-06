@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Choi.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8A80E1C3-335D-455A-A454-9A3DC9A8D35D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Choi.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ChoiEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Collision.ini" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{85882832-F1E9-44C1-9CD5-1765FEA67BAC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{9C2513C6-01C2-44A8-BDD2-9685030FB5CA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{F61F41C1-215B-41FB-8050-8B7DB3B6AE44}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{22DBBF6D-8589-4E78-A17B-EC7859EF1C60}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{7DA8B3D2-116A-45D8-9E0B-E56EA979DE9B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{2B5CD7A8-6538-421B-9974-30B9EAF47B33}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{89B6DE2D-0EC6-49D3-A924-948E1B5D4475}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{740C1B4C-0A5F-4673-87B8-A1B27B70EF0E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{97C3183B-9616-42B1-AF5C-4E089DA2CA58}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\Choi">
+      <UniqueIdentifier>{96B9FB87-D079-4EC7-807D-8DEF90E92389}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Choi\BoxActor.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\BoxActor.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\BTDecorator_InAttackRange.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\BTDecorator_InAttackRange.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\BTService_Detect.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\BTService_Detect.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\BTTask_NormalAttack.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\BTTask_NormalAttack.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\BTTask_SelectPatrolPos.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\BTTask_SelectPatrolPos.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\BTTask_TargetMove.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\BTTask_TargetMove.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Choi\Choi.Build.cs">
+      <Filter>Source\Choi</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Choi\Choi.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\Choi.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\ChoiGameModeBase.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\ChoiGameModeBase.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\EmptyPoint.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\EmptyPoint.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\EmptyPointList.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\EmptyPointList.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\Global.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\Global.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\LogoGameMode.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\LogoGameMode.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\MinionCharacter.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\MinionCharacter.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\MonsterAnimInstance.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\MonsterAnimInstance.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\MonsterCharacter.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\MonsterCharacter.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\MonsterController.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\MonsterController.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\ParticleActor.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\ParticleActor.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\PlayerAnimInstance.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\PlayerAnimInstance.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\PlayerCharacter.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\PlayerCharacter.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\TestPlayerController.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\TestPlayerController.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Choi\WeaponActor.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Choi\WeaponActor.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Choi\LogoLevelWidget.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Choi\InvenSlotWidget.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Choi\InvenWidget.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Choi\MouseMgr.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Choi\DragWidget.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Choi\HUDWidget.h">
+      <Filter>Source\Choi</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Choi\LogoLevelWidget.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Choi\InvenSlotWidget.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Choi\InvenWidget.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Choi\MouseMgr.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Choi\DragWidget.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Choi\HUDWidget.cpp">
+      <Filter>Source\Choi</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
